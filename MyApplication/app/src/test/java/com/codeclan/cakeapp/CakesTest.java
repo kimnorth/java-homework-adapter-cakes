@@ -1,7 +1,7 @@
 package com.codeclan.cakeapp;
 
 import org.junit.Test;
-
+import org.junit.Before;
 import static org.junit.Assert.*;
 
 /**
@@ -9,9 +9,6 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
 
 
 public class CakesTest {
@@ -31,8 +28,6 @@ public class CakesTest {
     @Test
     public void getNameTest() {
         assertEquals("Apple Turnover", cake.getName());
-
     }
-
 
 }
