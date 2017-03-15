@@ -33,7 +33,7 @@ public class TopCakesAdapter extends ArrayAdapter<Cake> {
 
         Cake currentCake = getItem(position); // inheriting getItem from array adapter
 
-        TextView ranking = (TextView) listItemView.findViewById(R.id.ranking);
+        TextView ranking = (TextView) listItemView.findViewById(R.id.photo_image_view);
         ranking.setText(currentCake.getRanking().toString());
 
         TextView title = (TextView) listItemView.findViewById(R.id.title);

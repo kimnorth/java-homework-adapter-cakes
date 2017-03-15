@@ -4,14 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/ranking"
-        android:textSize="50dp"
-        android:textAlignment="center"
-        android:layout_marginRight="20dp"
-        android:textColor="#ff0000"
-        android:layout_width="60dp"
-        android:layout_height="wrap_content" />
+    <!--<TextView-->
+        <!--android:id="@+id/ranking"-->
+        <!--android:textSize="50dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:textColor="#ff0000"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <ImageView
+
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fruitcake" />
 
     <LinearLayout
         android:layout_width="match_parent"
